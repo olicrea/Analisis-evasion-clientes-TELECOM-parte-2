@@ -61,7 +61,7 @@ El análisis de importancia de variables y los coeficientes del modelo permitier
 
 ### Factores que aumentan el riesgo de cancelación
 
-
+![Variables Críticas para la Predicción de Churn](images/variables-criticas.png)
 
 Estos resultados muestran que la estabilidad contractual y el tiempo de permanencia son factores clave en la retención de clientes.
 
@@ -83,23 +83,23 @@ Además, el análisis visual mostró que muchos clientes cancelan durante los pr
 
 A partir de los resultados obtenidos, se proponen las siguientes estrategias para reducir la cancelación de clientes:
 
-#### - Incentivar contratos de largo plazo
+- Incentivar contratos de largo plazo
 
 Ofrecer descuentos o beneficios adicionales para fomentar contratos de uno o dos años.
 
-#### - Implementar programas de retención temprana
+- Implementar programas de retención temprana
 
 Los primeros meses del cliente presentan mayor riesgo de churn. Se recomienda implementar estrategias de seguimiento o beneficios iniciales para mejorar la experiencia del cliente.
 
-#### - Revisar la propuesta de valor de los planes de fibra óptica
+- Revisar la propuesta de valor de los planes de fibra óptica
 
 Analizar precios, calidad del servicio y soporte técnico para identificar posibles causas de cancelación.
 
-#### - Programas de fidelización para clientes de alto gasto
+- Programas de fidelización para clientes de alto gasto
 
 Ofrecer beneficios exclusivos o servicios adicionales a clientes con mayor gasto mensual.
 
-#### - Fortalecer servicios de soporte técnico
+- Fortalecer servicios de soporte técnico
 
 El análisis muestra que los clientes con acceso a soporte técnico presentan menor tasa de cancelación.
 
@@ -116,3 +116,10 @@ Matplotlib / Seaborn
 Scikit-learn
 
 Jupyter Notebook
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona el repositorio.
+2. Instala las dependencias necesarias:  
+   `pip install pandas numpy seaborn matplotlib scikit-learn`
+3. Ejecuta el notebook `Analisis-evasion-clientes-TELECOM-parte-2.ipynb` para reproducir el análisis y el entrenamiento de los modelos.
